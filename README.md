@@ -9,6 +9,7 @@ Domain :web development
 Duration :NOVEMBER 15th, 2024 to DECEMBER 15th, 2024.
 
 OVERVIEW OF THE PROJECT
+
 PROJECT NAME :To-Do List Web App
 
 OVERVIEW
