@@ -15,8 +15,11 @@ OVERVIEW
 This is a simple and user-friendly web app for managing tasks. Users can add, mark as complete, or delete tasks. The app is designed to be responsive and works seamlessly on different devices.
 
 TECHNOLOGIES USED
+
 HTML: To structure the app.
+
 CSS: For styling and layout.
+
 JavaScript: To add interactivity.
 
 FEATURES
