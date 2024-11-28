@@ -1,0 +1,41 @@
+// script.js
+document.addEventListener("DOMContentLoaded", () => {
+    const taskInput = document.getElementById("task-input");
+    const addTaskBtn = document.getElementById("add-task-btn");
+    const taskList = document.getElementById("task-list");
+
+    // Add task functionality
+    addTaskBtn.addEventListener("click", () => {
+        const taskText = taskInput.value.trim();
+        if (taskText === "") {
+            alert("Please enter a task!");
+            return;
+        }
+
+        const taskItem = document.createElement("li");
+        taskItem.className = "task-item";
+
+        const taskContent = document.createElement("span");
+        taskContent.textContent = taskText;
+
+        const removeBtn = document.createElement("button");
+        removeBtn.textContent = "Remove";
+        removeBtn.className = "remove-btn";
+        removeBtn.addEventListener("click", () => {
+            taskList.removeChild(taskItem);
+        });
+
+        taskItem.appendChild(taskContent);
+        taskItem.appendChild(removeBtn);
+
+        taskList.appendChild(taskItem);
+        taskInput.value = "";
+    });
+
+    // Allow pressing Enter to add task
+    taskInput.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") {
+            addTaskBtn.click();
+        }
+    });
+});
