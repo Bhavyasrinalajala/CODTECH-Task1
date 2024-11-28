@@ -1,7 +1,11 @@
 Name:N.BHAVYASRI
+
 Company :CODTECH IT SOLUTIONS
+
 ID :CT08DS9911
+
 Domain :web development
+
 Duration :NOVEMBER 15th, 2024 to DECEMBER 15th, 2024.
 
 OVERVIEW OF THE PROJECT
